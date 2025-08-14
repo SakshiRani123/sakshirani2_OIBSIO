@@ -95,7 +95,7 @@ header nav a:hover {
   border-radius: 1px;
   display: inline-block;
   width: 250px;
-  height: auto; /* auto height so content fits */
+  height: auto; 
   vertical-align: top;
   box-sizing: border-box;
   color: green;
@@ -112,4 +112,5 @@ footer {
   text-align: center;
   padding: 10px 20px;
 }
+
 
