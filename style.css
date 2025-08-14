@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+/* Header */
+header {
+  background: #333;
+  color: rgb(218, 175, 34);
+  padding: 10px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+/* Dark Mode Styles - Apply to whole page */
+.dark-mode {
+  background-color: #121212; /* Dark background for entire page */
+  color: white;              /* White text for all content */
+}
+/* Override background colors in dark mode */
+.dark-mode header,
+.dark-mode footer {
+  background: #1f1f1f;
+}
+.dark-mode .hero {
+  background: linear-gradient(to right, #222, #444);
+}
+.dark-mode .about,
+.dark-mode .services,
+.dark-mode .contact {
+  background: #181818; /* Dark background for sections */
+}
+.dark-mode .about .container,
+.dark-mode .services .container,
+.dark-mode .contact .container {
+  border-color: #00ff99;
+  background: #1e1e1e;
+}
+.dark-mode .service-box {
+  background: #2a2a2a;
+  color: white;
+}
+#mode-toggle {
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.dark-mode #mode-toggle {
+  background: #333;
+  color: white;
+}
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4CAF50, #2E8B57);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: white;
+  color: #4CAF50;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero .btn:hover {
+  background: #f4f4f4;
+}
+
+/* About Section */
+.about {
+  padding: 40px 20px;
+  background: #dbafc5;
+  text-align: center;
+}
+/* Services Section */
+.services {
+  padding: 40px 20px;
+  background: rgb(209, 168, 168);
+  text-align: center;
+}
+/* Services Section Boxes */
+.service-box {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 1px;
+  border-radius: 1px;
+  display: inline-block;
+  width: 250px;
+  height: auto; /* auto height so content fits */
+  vertical-align: top;
+  box-sizing: border-box;
+  color: green;
+  text-align: center;
+}
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+  background: white;
+  text-align: center;
+}
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
