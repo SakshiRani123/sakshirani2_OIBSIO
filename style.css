@@ -1,10 +1,8 @@
-/* General Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
-/* Header */
 header {
   background: #333;
   color: rgb(218, 175, 34);
@@ -24,12 +22,10 @@ header nav a {
 header nav a:hover {
   text-decoration: underline;
 }
-/* Dark Mode Styles - Apply to whole page */
 .dark-mode {
-  background-color: #121212; /* Dark background for entire page */
-  color: white;              /* White text for all content */
+  background-color: #121212; 
+  color: white;              
 }
-/* Override background colors in dark mode */
 .dark-mode header,
 .dark-mode footer {
   background: #1f1f1f;
@@ -40,7 +36,7 @@ header nav a:hover {
 .dark-mode .about,
 .dark-mode .services,
 .dark-mode .contact {
-  background: #181818; /* Dark background for sections */
+  background: #181818; 
 }
 .dark-mode .about .container,
 .dark-mode .services .container,
@@ -64,7 +60,6 @@ header nav a:hover {
   background: #333;
   color: white;
 }
-/* Hero Section */
 .hero {
   background: linear-gradient(to right, #4CAF50, #2E8B57);
   color: white;
@@ -83,20 +78,16 @@ header nav a:hover {
 .hero .btn:hover {
   background: #f4f4f4;
 }
-
-/* About Section */
 .about {
   padding: 40px 20px;
   background: #dbafc5;
   text-align: center;
 }
-/* Services Section */
 .services {
   padding: 40px 20px;
   background: rgb(209, 168, 168);
   text-align: center;
 }
-/* Services Section Boxes */
 .service-box {
   background: #f4f4f4;
   padding: 20px;
@@ -110,16 +101,15 @@ header nav a:hover {
   color: green;
   text-align: center;
 }
-/* Contact Section */
 .contact {
   padding: 40px 20px;
   background: white;
   text-align: center;
 }
-/* Footer */
 footer {
   background: #333;
   color: white;
   text-align: center;
   padding: 10px 20px;
 }
+
